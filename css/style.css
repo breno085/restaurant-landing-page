@@ -14,13 +14,15 @@ h2 {
 }
 
 .header {
-   position: fixed;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: #1F2937;
-   padding: 20px 50px;
-}
+    position: fixed;
+    width: 97%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 50px;
+ }
 
 .logo {
    font-size: 24px;
