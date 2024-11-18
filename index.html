@@ -4,60 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website name</title>
+    <title>A Cantina Italiana</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            Header Logo
-        </div>
-        <ul class="links">
-            <li><a href="google.com">header link one</a></li>
-            <li><a href="google.com">header link two</a></li>
-            <li><a href="google.com">header link three</a></li>
-        </ul>
-    </div>    
-    <div class="hero">
-        <div class="container">
-          <div class="title">This website is awesome</div>
-        <div class="subtext">This website has some subtext that goes here under the maintile. It's a smaller font and the solo is lower contrast</div>
-        <button class="signup">
-            Sign Up
-        </button>
-        </div>
-        <div class="placeholder">This is a placeholder for an image </div>
-    </div>
-    <div class="information">
-        <div class="inf-header">Some random information.</div>
-        <ul class="img-text">
-            <li><div class="square"></div><div class="inf-text">this is some subtext under an illustration or image</div></li>
-            <li><div class="square"></div><div class="inf-text">this is some subtext under an illustration or image</div></li>
-            <li><div class="square"></div><div class="inf-text">this is some subtext under an illustration or image</div></li>
-            <li><div class="square"></div><div class="inf-text">this is some subtext under an illustration or image</div></li>
-        </ul>
-        </div>
-        <div class="quote">
-            <div class="quote-txt">
-            This is an inspiring quote, or a testimonial from a customer. 
-            Maybe it's just filling up space, or maybe people will actually read it. Who Knows ? All i know is that it looks nice.
-             <div class="author">-Thor, God of Thunder</div>
-            </div>
-        </div>
-    <div class="call">
-        <div class="call-text">
-        <div class="call-title">
-            Call to action! It's time!
-        </div>
-        <div class="call-subtext">Sign up for our product by clicking that button right over there!</div>
-        </div>
-        <button class="call-b">
-            Sign up
-        </button>
-    </div>
-    <div class="footer">
-        Copyright © The Odin Project 2023
-    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">A Cantina Italiana</div>
+        <nav>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">A Cantina</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1 class="title">Bem-vindo à A Cantina Italiana</h1>
+            <p class="subtext">Sabores autênticos da Itália, diretamente para sua mesa.</p>
+        </div>
+        <div class="placeholder">
+            <img src="img/A Cantina.jpg"  style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Sobre Nós</h2>
+        <p>A Cantina Italiana oferece uma experiência única de gastronomia, inspirada nos sabores autênticos da Itália. Venha nos visitar e aproveite o melhor da cozinha italiana.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Menu</h2>
+
+        <!-- Pratos -->
+        <div class="menu-section">
+            <h2>Pratos</h2>
+            <ul class="img-text">
+                <li>
+                    <div class="square">
+                        <img src="img/Raviólis de ricota e espinafre.jpg" alt="Raviólis de ricota e espinafre" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Ravioli de Ricota e Espinafre - R$35</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/lasagna-bolonhesa.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Lasagna à Bolonhesa - R$40</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/spaghetti-carbonara.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Spaghetti Carbonara - R$38</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/fettuccine-alfredo.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Fettuccine Alfredo - R$48</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/nhoque-presto.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Gnocchi com Molho Pesto - R$32</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/Polenta-cremosa-italiana.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Polenta Cremosa - R$30</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/bruschettas.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Bruschetta de Tomate e Manjericão - R$25</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/tiramisu-classico-italiano.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Tiramisu Clássico - R$28</div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Drinks -->
+        <div class="menu-section">
+            <h2>Drinks</h2>
+            <ul class="img-text">
+                <li>
+                    <div class="square">
+                        <img src="img/vinho-tinto.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Vinho Tinto da Casa - R$50</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/Aperol-Spritz.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Spritz Aperol - R$35</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/cappucino.jpeg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Cappuccino Italiano - R$18</div>
+                </li>
+                <li>
+                    <div class="square">
+                        <img src="img/limoncello.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="inf-text">Limoncello - R$20</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Reservas -->
+    <section id="reservas" class="reservas">
+        <h2>Reservas</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit">Fazer Reserva</button>
+        </form>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <p>Endereço: Rua Itália, 123, Recife, PE</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: contato@cantinaitaliana.com.br</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Copyright © A Cantina Italiana 2024</p>
+    </footer>
 </body>
 </html>
